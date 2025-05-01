@@ -1,0 +1,73 @@
+/* Geral: Centraliza o conteúdo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #323232;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  input[type="file"] {
+    padding: 8px;
+  }
+  
+  /* Personaliza o formulário de dados para ser mais amigável */
+  input[type="text"], input[type="email"], input[type="tel"] {
+    border: 1px solid #6e6e6e;
+  }
+  
+  /* Responsividade: Formulário se ajusta ao tamanho da tela */
+  @media (max-width: 500px) {
+    .container {
+      padding: 15px;
+    }
+  }
+  
